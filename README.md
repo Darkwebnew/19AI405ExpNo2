@@ -43,9 +43,7 @@ Step 6: Now, Node 3 at the top of the stack, so visit node 3 and pop it from the
 
 Visit node 3
 Visit node 3
-
 Now, the Stack becomes empty, which means we have visited all the nodes, and our DFS traversal ends.
-
 <h3>Algorithm:</h3>
 <B><ol>
  <li>Construct a Graph with Nodes and Edges</li>
@@ -54,9 +52,7 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
  <li>Find its Successors Or neighbors and Check whether the node is visited or not</li>
  <li>If Not Visited, add it to the STACK. Else Call The Function Again Until No more nodes needs to be visited.</li>
 </ol></B>
-
 <h3>Sample Input</h3>
-
 8 9 <BR>
 A B <BR>
 A C <BR>
@@ -67,25 +63,16 @@ C G <BR>
 D F <BR>
 G F <BR>
 F H <BR>
-
 <h3>Sample Output</h3>
-
 ['A', 'B', 'E', 'D', 'C', 'G', 'F', 'H']
-
 <h3>Sample Input</h3>
-
 5 5 <BR>
 0 1 <BR>
 0 2 <BR>
 0 3 <BR>
 2 3 <BR>
 2 4 <BR>
-
 <h3>Sample Output</h3>
-
 ['0', '1', '2', '3', '4']
-
-
 <h3>Result:</h3>
-
 <p>Thus,a Graph was constructed and implementation of Depth First Search for the same graph was done successfully.</p>
